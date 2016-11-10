@@ -1,1 +1,18 @@
-#include <iostream>
+#include <iostream> 
+#include <iomanip>
+
+using namespace std;
+
+// function prototypes
+
+int displayMenu();
+int getDimension(string,string);
+void drawLine(int blanks,int numPen,char pen);
+void drawRectangle(int,char);
+void drawRectangle(int,int,char);
+void drawDiamond(int,char);
+void drawEqualTriangle(int,char);
+void drawInvertTriangle(int,char);
+char getNewPen();
+
+
